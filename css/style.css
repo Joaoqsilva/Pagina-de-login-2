@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&display=swap');
+
+
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ font-family: 'Almarai', sans-serif;
+}
+
+html {
+    
+background-image: url(https://i.pinimg.com/736x/fa/a4/4c/faa44ce342026d28cc9b2bf74d02ebdd--phone-backgrounds-phone-wallpapers.jpg);
+
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}
+.container-divisao {
+display: flex;
+}
+
+/*Abaixo esta todos os elementos resposaveis por manipular o card azul*/
+
+.Topo-card-azul {
+    position: absolute;
+    display:flex;
+    padding-top: 31px;
+    padding-left: 1px;
+}
+
+.card-azul-esquerda {
+    height:35rem;
+    width: 30rem;
+     background-color: #004aad ;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     border-radius: 50px 5px 5px 50px;
+ }
+ .titulo {
+     text-align: center;
+ }
+ 
+ .titulo h1{
+     font-size: 55.5px;
+ }
+ 
+ .titulo p {
+     font-size: 24.7px;
+ }
+
+
+ .buton input[type=button] {
+     margin-top: 20px;
+     width: 10rem;
+     padding: 10px;
+     font-size: 20px;
+     border:1px solid white;
+     color: white;
+     border-radius: 20px;
+     background-color: transparent;
+     text-transform: uppercase;
+     cursor: pointer;
+     
+ }
+/*---------------------------------------------------------------------------------------------*/
+
+
+/*Abaixo os elementos responsaveis pelo card branco da diteira*/
+ .card-branco-direita {
+    background-color: aliceblue;
+    width: 40rem;
+    text-align: center;
+    border-radius: 0px 20px 20px 0px;
+
+}
+
+.card-branco-direita  h1{
+    color:#004aad;
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+/*"Socias" essa div foi feita para manipular as formas de login como GOOGLE,FACEBOOK e LINKED-IN*/
+
+.socias {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    cursor: pointer;
+    margin: 5px;
+}
+.socias img {
+    height: 35px;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*"texto alternarivo" nao e um bom nome mas essa div foi feita para 
+manipular o texto "ou use seu melhor e-mail"
+*/
+.texto-alternativo {
+    font-size: 25.8px;
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+/* formulario div:fiz essa class e puxei todas as divs dentro dela
+que sao as divs do formulario como "nome" "email" "senha" para ficar mais facil manipular
+esse elementos*/
+.formulario div {
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+/*Abaixo esta o input "Nome* para que o usuario digite o proprio nome para cadastro */
+
+
+.form-nome input[type=text],
+.form-senha input[type=password],
+.form-email input[type=email]            
+    {
+    width: 26rem;
+    padding: 16px 50px;
+    outline: none;
+    color: gray;
+    border: 1px solid;
+    background-color: #e1e1e1;
+}
+
+
+.formulario i{
+    position: relative;
+    left: 40px ;
+    top:15px;
+    color: gray;
+    width: 30px;
+    height: 20px;
+
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+
+
+
+.botao input[type=button]{ /*Esse eo input button do card branco com nome "REGISTRE-SE*/
+   width: 13rem;
+   padding: 15px;
+   border-radius: 20px;
+   border: 1px solid;
+   text-transform: uppercase;
+   color: white;
+   background-color:#004aad ;
+   cursor: pointer;
+   font-size: 20px;
+   text-align: center;
+}
+
+
+.creditos a{
+    color: #004aad;
+    text-decoration: none;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Abaixo esta as barras no topo do card azul, coloquei
+ no final para nao atrapalhar tando a leitura do codigo*/
+
+.barrinha-1 {
+    border-bottom: 3px solid #2B69BB;
+   padding-top: 10px;
+   width: 2rem;
+}
+.barrinha-2 {
+    border-bottom: 3px solid #2B69BB;
+   padding-top: 10px;
+   width: 3rem;
+}
+.barrinha-3 {
+    border-bottom: 3px solid #2B69BB;
+   padding-top: 10px;
+   width: 4rem;
+}
+.barrinha-4 {
+    border-bottom: 3px solid #2B69BB;
+   padding-top: 10px;
+   width: 5rem;
+}
+.logo {
+    height: 50px;
+    background:transparent;
+    color: #004aad;
+} 
